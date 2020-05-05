@@ -1,7 +1,7 @@
 {
     "name": "E2ETest",
     "description": "E2ETest Test Solution",
-    "authors": "author",
+    "authors": "Miroslav Hristev",
     "version": "1.0.0",
     "license": "UNLICENSED",
     "repository": {
@@ -9,10 +9,15 @@
         "url": "https://github.com/mir0hristeff/protractorTest.git"
     },
     "dependencies": {
-        "@types/jasmine": "^3.5.10",
-        "@types/protractor": "^4.0.0"
+        
     },
     "devDependencies": {
-        "jasmine": "^3.5.0"
+        "@types/jasmine": "^3.5.10",
+        "@types/jasminewd2": "~2.0.3",
+        "jasmine": "^3.5.0",
+        "jasmine-core": "~3.5.0",
+        "jasmine-spec-reporter": "~4.2.1",
+        "protractor": "~5.4.3",
+        "typescript": "~3.8.3"
     }
 }
