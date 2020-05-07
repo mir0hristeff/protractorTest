@@ -1,19 +1,26 @@
 {
     "name": "E2ETest",
     "description": "E2ETest Test Solution",
-    "authors": "Miroslav Hristev",
+    "authors": "",
     "version": "1.0.0",
     "license": "UNLICENSED",
     "repository": {
         "type": "git",
         "url": "https://github.com/mir0hristeff/protractorTest.git"
     },
-    "dependencies": {
-        
+
+    "scripts": {
+        "tsc" : "tsc",
+        "pretest": "npm run tsc",
+        "test": "protractor ./out-tsc/protractor.conf.js"
     },
+
+    "dependencies": {
+        "@types/jasmine": "^3.5.10"
+    },
+
     "devDependencies": {
-        "@types/jasmine": "^3.5.10",
-        "@types/jasminewd2": "~2.0.3",
+        "@types/node": "~13.13.5",
         "jasmine": "^3.5.0",
         "jasmine-core": "~3.5.0",
         "jasmine-spec-reporter": "~4.2.1",
