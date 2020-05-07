@@ -1,6 +1,5 @@
 import { Config, browser } from "protractor";
 
-
 export let config: Config = {
     framework : "jasmine",
 
@@ -29,6 +28,20 @@ export let config: Config = {
        },
 
     specs:['./e2e/src/test/sut.e2e-spec.js'],
+
+    // suites: {
+    //     first : './first.js',
+    //     second : './second.js',
+    //     all : [
+    //         './first.js',
+    //         './second.js'
+    //     ]
+    //     //to run each suite
+    //     //protractor conf.js first
+    //     //protractor conf.js second
+    //     //protractor conf.js first,second
+    //     //protractor conf.js all
+    // },
 
     seleniumAddress: 'http://localhost:4444/wd/hub'
 }

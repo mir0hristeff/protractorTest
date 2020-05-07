@@ -12,7 +12,7 @@
     "scripts": {
         "tsc" : "tsc",
         "pretest": "npm run tsc",
-        "test": "protractor ./out-tsc/config.js"
+        "test": "protractor ./out-tsc/protractor.conf.js"
     },
 
     "dependencies": {
