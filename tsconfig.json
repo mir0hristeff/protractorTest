@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES5",
+    "outDir": "out-tsc",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+
+  "exclude": [
+    "node_modules/*"
+  ]
+}
